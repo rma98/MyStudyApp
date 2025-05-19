@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment">
+
+    <Button
+        android:id="@+id/btnGoToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Login" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="16dp" />
+
+    <Button
+        android:id="@+id/btnGoToRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Register" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="16dp" />
+
+    <Button
+        android:id="@+id/btnShowProducts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Produtos" />
+
+    <Button
+        android:id="@+id/btnShowFullscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir FullScreen Fragment"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
